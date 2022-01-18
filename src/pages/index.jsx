@@ -26,7 +26,7 @@ const Index = () => {
                 número es múltiplo de 5 debe imprimirse en la misma línea la palabra bazz.
             </p>
             <br />
-            <h3>Listado de números:</h3>
+            <h3>Lista de números:</h3>
             
             <br/>
             <ul>
