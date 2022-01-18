@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;    
+    z-index: 10;
+  }
+
+  .navbar {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+  }  
+
+  nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+  }
+  nav ul {
+    list-style: none;
+    
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  .butonEjecutar{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+  }
+
+ 
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;/*quitar subrayado*/
+  }
+
+  nav ul li:hover {
+    background: #3ead47;
+  }
+
+  .container{
+    padding: 50px;
+  }
+  
+
+  
+      
